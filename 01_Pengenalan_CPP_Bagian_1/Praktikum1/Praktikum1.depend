@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1727079063 source:d:\kuliah\semester 3\struktur-data-praktikum\praktikum1\main.cpp
+	<iostream>
+	<conio.h>
+
+1727074386 source:d:\kuliah\semester 3\struktur-data-praktikum\praktikum1\src\praktikum1.cpp
+	"Praktikum1.h"
+
+1727074385 d:\kuliah\semester 3\struktur-data-praktikum\praktikum1\include\praktikum1.h
+
