@@ -1,3 +1,5 @@
 /*.pdf
 /*.md
 !README.md
+*.exe
+.vscode

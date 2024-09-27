@@ -34,6 +34,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="greating.cpp" />
 		<Unit filename="include/Praktikum1.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Praktikum1.cpp" />
