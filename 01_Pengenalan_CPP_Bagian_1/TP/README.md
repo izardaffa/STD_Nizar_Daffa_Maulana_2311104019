@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 <p style="font-size:1.5rem"><b>TUGAS PENDAHULUAN</b></p>
 
@@ -28,11 +28,12 @@ Yudha Islami Sulistya
 
 **2024**
 
-</center>
+</div>
 
 # Soal
 
-- Soal: [Tugas-Pendahuluan.pdf](013-032.pdf)
+- Soal Unguided: [Modul-01.pdf](013-032.pdf)
+- Soal TP: [Tugas-Pendahuluan.pdf](TP%20MODUL%201%20STD%20-%202425.pdf)
 
 # Jawaban
 
