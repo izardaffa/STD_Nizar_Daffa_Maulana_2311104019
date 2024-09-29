@@ -14,7 +14,8 @@ int main() {
     while (bilangan <= asli)
     {
         if (bilangan % 2 == 0) {
-            jumlah += bilangan;
+            // jumlah += bilangan;
+            jumlah++;
         }
         bilangan++;
     }

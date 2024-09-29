@@ -79,6 +79,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     Hasil pembagian 8 dan 4: 2
     ```
 
+    Penjelasan:
+
+    Kode program diatas akan meminta user untuk memasukkan 2 bilangan bulat dan kemudian program akan menjumlah, mengkurangi, mengkali, dan membagi kedua bilangan tersebut. Lalu menampilkannya di console.
+
 2. Jawaban:
 
     Source code:
@@ -128,6 +132,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     Masukkan bilangan bulat 0-100 : 24
     24 : Dua Puluh Empat
     ```
+
+    Penjelasan:
+
+    Kode program tersebut akan meminta user untuk memasukkan bilangan bulat antara 0 sampai 100 lalu program akan menampilkan cara baca/ejaan bilangan tersebut.
 
 3. Jawaban:
 
@@ -180,6 +188,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
          *
     ```
 
+    Penjelasan:
+
+    Kode program tersebut akan meminta user untuk memasukkan sebuah angka untuk membuat piramida terbalik dengan susunan angka mulai dari angka yang diinputkan user. Angka yang diinputkan user merupakan jumlah tingkatan dari piramida yang akan dibuat.
+
 ## Tugas Pendahuluan
 
 1. Jawaban:
@@ -225,6 +237,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     Nama saya: Nizar
     NIM saya: 2311104019
     ```
+
+    Penjelasan:
+
+    Program akan meminta user untuk menginputkan nama dan nim. Kemudian program akan menampilkan hasil inputan tersebut di console. Dan sepertinya perintah `cin` tidak bisa menerima inputan berupa spasi.
 
 2. Jawaban:
 
@@ -280,6 +296,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     0.75
     ```
 
+    Penjelasan:
+
+    Kode program di atas akan melakukan operasi aritmatika seperti penjumlahan, pengurangan, perkalian, pembagian, dan modulus pada variabel integer dan float yang sudah disiapkan. Kemudian menampilkan hasilnya di console.
+
 3. Jawaban:
 
     Source code:
@@ -325,6 +345,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     1
     ```
 
+    Penjelasan:
+
+    Kode program di atas akan melakukan operasi perbandingan pada variabel integer yang sudah disiapkan. Kemudian menampilkan hasilnya di console.
+
 4. Jawaban:
 
     Source code:
@@ -357,6 +381,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     1
     1
     ```
+
+    Penjelasan:
+
+    Kode program di atas akan melakukan operasi logika pada variabel integer yang sudah disiapkan. Kemudian menampilkan hasilnya di console.
 
 5. Jawaban:
 
@@ -402,6 +430,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     Bukan A
     ```
 
+    Penjelasan:
+
+    Pertama, kode program di atas akan meminta user untuk menginputkan sebuah nilai integer dan kemudian melakukan pengecekan yang mana jika nilai lebih dari 80 maka program akan menampilkan outputan berupa string "A" dan jika tidak nilai lebih dari 80 maka program akan menampilkan outputan berupa string "Bukan A".
+
 6. Jawaban:
 
     Source code:
@@ -445,6 +477,10 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     Bilangan 10
     ```
 
+    Penjelasan:
+
+    Kode program diatas akan melakukan perulangan. Mulai dari angka batas bawah yang dimasukkan user sampai batas atas yang dimasukkan user.
+
 7. Jawaban:
 
     Source code:
@@ -482,4 +518,14 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
     ```
     Masukkan bilangan asli: 10
     Jumlah bilangan genap: 30
+    ```
+
+    Penjelasan:
+
+    Kode program tersebut akan meminta user untuk menginputkan bilangan asli lalu program tersebut akan mengitung jumlah bilangan genap dari 1 sampai angka yang diinputkan user. Tapi sepertinya ada yang salah dengan kode tersebut. Seharusnya pada line ke-17 diubah menjadi seperti berikut:
+
+    ```cpp
+    ...
+        jumlah++;
+    ...
     ```
