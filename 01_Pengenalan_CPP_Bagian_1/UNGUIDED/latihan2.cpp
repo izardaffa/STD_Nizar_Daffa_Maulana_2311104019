@@ -33,4 +33,6 @@ int main() {
     }
 
     cout << num << " : " << numStr << endl;
+
+    return 0;
 }

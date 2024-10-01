@@ -6,7 +6,7 @@
 
 <b>MODUL 01</b>
 
-<img src="img/TU-logogram-812x1024.webp" alt="Logo TelU" width="400">
+<img src="/logo-TU.webp" alt="Logo TelU" width="400">
 
 <br><br>
 
@@ -32,8 +32,8 @@ Yudha Islami Sulistya, S.Kom., M.Kom.
 
 # Soal
 
-- Soal Unguided: [Modul-01.pdf](013-032.pdf)
-- Soal TP: [Tugas-Pendahuluan.pdf](TP%20MODUL%201%20STD%20-%202425.pdf)
+- Soal Unguided: [Modul-01.pdf](/Modul%201.pdf)
+- Soal TP: [Tugas-Pendahuluan.pdf](/TP%20MODUL%201%20STD%20-%202425.pdf)
 
 # Jawaban
 
