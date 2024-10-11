@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const int MAX_MAHASISWA = 10;
+const int MAX = 10;
 
 struct Mahasiswa {
     string nama;
@@ -21,6 +21,7 @@ float nilaiAkhir(float uts, float uas, float tugas) {
 void inputNilai(Mahasiswa &mhs) {
     cout << "Masukkan nama mahasiswa: ";
     getline(cin, mhs.nama);
+    // cin >> mhs.nama;
     
     cout << "Masukkan NIM: ";
     cin >> mhs.nim;
@@ -38,7 +39,25 @@ void inputNilai(Mahasiswa &mhs) {
 }
 
 int main() {
+    Mahasiswa mahasiswa[MAX];
+    int jumlahMahasiswa;
 
+    cout << "Masukkan jumlah mahasiswa = ";
+    cin >> jumlahMahasiswa;
+
+    for(int i = 0; i < jumlahMahasiswa; i++) {
+        if(i > MAX) {
+            cout << "Jumlah mahasiswa sudah mencapai batas maksimal." << endl;
+            break;
+        }
+
+        inputNilai(mahasiswa[i]);
+        cout << endl;
+    }
+
+    for(int i = 0; i < jumlahMahasiswa; i++) {
+        cout << "Nama: " << mahasiswa[i].nama << ", NIM: " << mahasiswa[i].nim << ", Nilai Akhir: " << mahasiswa[i].nilaiAkhir << endl;
+    }
 
     return 0;
 }
