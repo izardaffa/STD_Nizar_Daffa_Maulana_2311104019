@@ -8,15 +8,17 @@ int main() {
 
     createList(head);
 
-    for (int i = 0; i < 3; i++) {
+    cout << "Masukkan NIM perdigit" << endl;
+
+    for (int i = 0; i < 10; i++) {
         int number;
 
-        cout << "Masukkan angka ke-" << i+1 << " : ";
+        cout << "Digit " << i+1 << " : ";
         cin >> number;
 
         address elm = allocate(number);
 
-        insertFirst(head, elm);
+        insertLast(head, elm);
     }
 
     printInfo(head);
@@ -24,4 +26,5 @@ int main() {
     return 0;
 }
 
-// 231 104 019
+// 2311104019
+// 9104011132

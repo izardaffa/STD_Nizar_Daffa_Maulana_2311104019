@@ -22,5 +22,13 @@ void createList(List &L);
 address allocate(infotype x);
 
 void insertFirst(List &L, address P);
+void insertLast(List &L, address P);
+void insertAfter(List &L, address P, address Prec);
+
+void deleteFirst(List &L);
+void deleteLast(List &L);
+void deleteAfter(List &L, address Prec);
 
 void printInfo(List L);
+
+int searchInfo(List &L, int P);
